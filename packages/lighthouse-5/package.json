@@ -1,0 +1,9 @@
+{
+  "name": "lighthouse-5",
+  "dependencies": {
+    "lighthouse": "5"
+  },
+  "scripts": {
+    "lh:mobile": "node_modules/.bin/lighthouse https://m.tokopedia.com"
+  }
+}

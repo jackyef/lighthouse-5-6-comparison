@@ -1,0 +1,1 @@
+# Lighthouse 6 (`lighthouse@next`)

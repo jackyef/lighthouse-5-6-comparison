@@ -1,0 +1,9 @@
+{
+  "name": "lighthouse-6",
+  "dependencies": {
+    "lighthouse": "^6.0.0-beta.0"
+  },
+  "scripts": {
+    "lh:mobile": "node_modules/.bin/lighthouse https://m.tokopedia.com"
+  }
+}
