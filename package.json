@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lh5": "pnpm run lh --filter lighthouse-5",
+    "lh6": "pnpm run lh --filter lighthouse-6"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "yargs-parser": "15.0.1"
+  }
 }

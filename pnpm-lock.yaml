@@ -1,4 +1,9 @@
 importers:
+  .:
+    dependencies:
+      yargs-parser: 15.0.1
+    specifiers:
+      yargs-parser: 15.0.1
   packages/lighthouse-5:
     dependencies:
       lighthouse: 5.6.0
@@ -143,6 +148,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
+  /camelcase/5.3.1:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
   /canonicalize/1.0.1:
     dev: false
     resolution:
@@ -1553,6 +1564,13 @@ packages:
     dev: false
     resolution:
       integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+  /yargs-parser/15.0.1:
+    dependencies:
+      camelcase: 5.3.1
+      decamelize: 1.2.0
+    dev: false
+    resolution:
+      integrity: sha512-0OAMV2mAZQrs3FkNpDQcBk1x5HXb8X4twADss4S0Iuk+2dGnLOE/fRHrsYm542GduMveyA77OF4wrNJuanRCWw==
   /yargs-parser/7.0.0:
     dependencies:
       camelcase: 4.1.0
